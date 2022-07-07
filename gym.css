@@ -1,0 +1,142 @@
+
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 8.6rem;
+    padding: 0px 9px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family:'Courier New', Courier, monospace
+}
+
+
+.mid {
+    /* border: 2px solid blue; */
+    width: 33%;
+    display: block;
+    margin: 20px auto;
+
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(24 126 126);
+    text-decoration: underline;
+
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    height: 23px;
+    width: 93px;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.btn :hover{
+    /* color: aqua; */
+    background-color: rgb(7, 20, 17);
+    border: 3px solid hsl(57, 100%, 80%);
+}
+.right a:hover{
+    /* color: rgb(90, 255, 255); */
+    background-color: rgb(7, 20, 17);
+    border: 3px solid rgb(242, 229, 169);
+    border-radius: 12px;
+}
+.container{
+    /* border: 2px solid pink; */
+    display: inline-block;
+    font-size: 1.3rem;
+   margin-top: 60px;
+   margin-left: 100px;
+   margin-right: 918px;
+   margin-bottom: 51px;
+    padding: 2px 13px;
+    border-radius: 8px;
+}
+.container:hover{
+    box-shadow: -15px -8px 10px rgb(36, 34, 34);
+    background-color: rgb(218, 244, 244);
+    color: #000;
+}
+.container h2:hover,.nextcontainer h3:hover{
+    color: rgb(48, 34, 238);
+}
+.nextcontainer{
+    /* border: 2px solid pink; */
+    display: inline-block;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    padding: 0px 14px;
+    margin-right: 777px;
+    margin-left: 98px ;
+    margin-bottom: 10px;
+}
+.nextcontainer:hover{
+    box-shadow: -15px -8px 10px  rgb(36, 34, 34);
+    background-color: rgb(238, 240, 210);
+    color: #000;
+}
+.bttn{
+    /* border: 2px solid red; */
+    background: #000;
+    border-radius: 25px;
+    font-size: 20px;
+   display: block;
+   margin: auto;
+   width: 262px;
+   height: 42px;
+}
+.bttn a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bttn:hover{
+    background: rgba(232, 88, 88, 0.133);
+
+}
+.bttn a:hover{
+    color: rgb(187, 233, 233);
+}
+.logo_text:hover{
+    color: aqua;
+}

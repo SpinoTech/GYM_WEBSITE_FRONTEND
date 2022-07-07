@@ -1,0 +1,33 @@
+
+
+.frm input{
+    border: 2px solid #7f7fe6;
+    text-align: center;
+    display: block;
+    width: 482px;
+    padding: 3px;
+    font-size: 19px;
+    margin: 6px auto;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+color: white;
+}
+.btnnn{
+display: block;
+width: 100px;
+font-size: 19px;
+margin: auto;
+border-radius: 25px;
+cursor: pointer;
+background-color: rgb(0, 0, 0);
+color: white;
+border: 2px solid white;
+}
+.btnnn:hover{
+    background-color: rgb(237, 238, 164);
+    color: black;
+}
+header h1{
+    text-align: center;
+    font-family: Georgia, serif;
+}

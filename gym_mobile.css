@@ -1,0 +1,28 @@
+body{
+    background: url('img/bg.jpg') no-repeat center/cover;
+}
+header{
+    display: grid;
+    grid-template-areas: 
+    lef mid rt
+    ;
+
+}
+
+.left {
+   grid-area: mid;
+}
+.mid{
+    grid-area: lef;
+}
+.right{
+grid-area: rt;
+}
+
+.left img {
+    width: 5.6rem;
+    padding: 0px 9px;
+}
+.btn{
+    display: block;
+}
